@@ -2,13 +2,12 @@
   display: flex;
 }
 
-
 .grid {
   width: 200px;
   height: 400px;
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
+  background-color: rgb(69, 201, 194);
 }
 
 .grid div {
@@ -21,14 +20,13 @@
   background-color: blue;
 }
 
-
 .mini-grid {
   margin-left: 50px;
   width: 80px;
   height: 80px;
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
+  background-color: rgb(69, 201, 194);
 }
 
 .mini-grid div {
@@ -37,7 +35,7 @@
   outline: 0.1px solid white;
 }
 
-button{
+button {
   width: 100px;
   margin-bottom: 15px;
   height: 40px;
@@ -46,16 +44,15 @@ button{
   color: white;
   background-color: rgb(22, 22, 56);
   font-weight: bold;
-  
 }
-button:hover{
+button:hover {
   box-shadow: cadetblue;
 }
-#level{
+#level {
   font-size: 18px;
 }
 
-div.taken{
+div.taken {
   border: white;
   /* border: 0.1px solid white; */
 }
